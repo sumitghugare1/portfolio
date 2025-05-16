@@ -28,12 +28,12 @@ const Contact = () => {
     e.preventDefault();
     setFormStatus({ submitting: true, submitted: false, error: false });
     
-    // Send the email using EmailJS
+    // Send the email using EmailJS with environment variables
     emailjs.sendForm(
-      'service_071w4uf', // EmailJS service ID
-      'template_9ngonnu', // EmailJS template ID
+      process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
       form.current,
-      'xl2mKRz_eCX_4mvXg' // EmailJS public key
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY 
     )
     .then((result) => {
       console.log('Email sent successfully:', result.text);
