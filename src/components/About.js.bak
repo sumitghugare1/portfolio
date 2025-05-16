@@ -1,0 +1,25 @@
+import React from 'react';
+import './About.css';
+
+function About() {
+  return (
+    <section id="about" className="about">
+      <h2>About Me</h2>
+      <div className="about-content">
+        <div className="about-text">
+          <p>Hi, I'm Sumit Ghugare, an aspiring full-stack developer with a solid foundation in computer science. My journey began with a Diploma in Computer Engineering, and I'm currently pursuing a BTech in Computer Science from M.S. Bidve Engineering College, Latur.</p>
+          <p>I specialize in MERN stack development, and I'm passionate about building impactful, scalable, and secure web applications. I enjoy learning new technologies and applying them to real-world projects.</p>
+          <p>With experience in frontend technologies like React.js and Next.js, backend frameworks including Node.js and Express, and various databases, I strive to create elegant solutions to complex problems.</p>
+            {/* Personal details removed as requested */}
+          
+          <div className="cta-buttons">
+            <a href="#contact" className="btn primary">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1VWA-V-daAxqxfWYS63YkNpossejgunOI/view?usp=drive_link" className="btn secondary" target="_blank" rel="noopener noreferrer">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default About;

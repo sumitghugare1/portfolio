@@ -1,0 +1,163 @@
+.about {
+  padding: 80px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #1d2146;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(74, 137, 220, 0.2);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.about-text {
+  width: 100%;
+  min-width: 300px;
+  line-height: 1.8;
+}
+
+.about-image {
+  display: none;
+}
+
+.profile-placeholder {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(135deg, #4a89dc, #5e35b1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border: 5px solid white;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-placeholder::after {
+  content: "SG";
+  position: absolute;
+  font-size: 5rem;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Hide the placeholder when using actual image */
+.profile-placeholder {
+  display: none;
+}
+
+.personal-details {
+  margin: 25px 0;
+  padding: 20px;
+  background-color: #121638;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #ad5eff;
+}
+
+.personal-details p {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.personal-details p strong {
+  min-width: 100px;
+  color: #ad5eff;
+}
+
+.personal-details a {
+  color: #ad5eff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.personal-details a:hover {
+  color: #4a89dc;
+  text-decoration: underline;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.primary {
+  background-color: #4a89dc;
+  color: white;
+  box-shadow: 0 5px 15px rgba(74, 137, 220, 0.3);
+}
+
+.secondary {
+  background-color: transparent;
+  color: #4a89dc;
+  border: 2px solid #4a89dc;
+}
+
+.primary:hover {
+  background-color: #3b78cc;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(74, 137, 220, 0.4);
+}
+
+.secondary:hover {
+  background-color: rgba(74, 137, 220, 0.1);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .personal-details p {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personal-details p strong {
+    margin-bottom: 5px;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+}
