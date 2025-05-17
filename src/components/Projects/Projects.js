@@ -18,7 +18,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Shopmart E-commerce",
-      description: "A responsive e-commerce frontend with product catalog, shopping cart functionality, and user authentication system.",
+      description: "Responsive e-commerce application with product catalog, shopping cart, and user authentication.",
       imageUrl: "/projects/shopmart.png", 
       category: "frontend",
       technologies: ["React.js", "Redux", "CSS3", "Material UI", "Firebase"],

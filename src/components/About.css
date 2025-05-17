@@ -160,4 +160,33 @@
   .cta-buttons {
     justify-content: center;
   }
+  
+  .about {
+    padding: 60px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-image, .profile-placeholder {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .personal-details {
+    padding: 15px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .about {
+    padding: 40px 15px;
+  }
 }

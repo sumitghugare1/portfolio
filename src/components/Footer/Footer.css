@@ -305,14 +305,20 @@
     flex-direction: column;
     text-align: center;
   }
+  
+  .footer-container {
+    padding-top: 80px;
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .footer-links {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   .footer-links-column h3 {
+    margin-bottom: 15px;
     text-align: center;
   }
 
@@ -324,12 +330,21 @@
   .footer-links-column ul li {
     text-align: center;
   }
-
-  .contact-list li {
-    justify-content: center;
+  
+  .footer-legal {
+    flex-direction: column;
+    gap: 10px;
   }
-
-  .tech-tags {
-    justify-content: center;
+  
+  .divider {
+    display: none;
+  }
+  
+  .footer-container {
+    padding-top: 60px;
+  }
+  
+  .footer-wave-container {
+    height: 60px;
   }
 }

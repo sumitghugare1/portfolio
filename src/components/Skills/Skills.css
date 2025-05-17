@@ -97,4 +97,37 @@
   .skills-container {
     grid-template-columns: 1fr;
   }
+  
+  .skills-section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 60px 0;
+  }
+  
+  .skills-category {
+    padding: 25px 20px;
+  }
+  
+  .skills-category h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-section {
+    padding: 50px 0;
+  }
+  
+  .other-skills {
+    gap: 10px;
+  }
+  
+  .other-skill-item {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
 }
