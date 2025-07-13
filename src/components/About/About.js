@@ -58,7 +58,7 @@ const About = () => {
           
           {/* Personal details removed as requested */}
           <div className="about-actions">
-            <a href="https://drive.google.com/file/d/1PvMvdCOJ_JPMs9gzGfNrRoKhuHp_uDBW/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1kmHnvD05lEcCwRV3pLSjEpcAPFNS56-Q/view?usp=drive_link" 
                className="btn primary-btn" 
                target="_blank" 
                rel="noopener noreferrer">

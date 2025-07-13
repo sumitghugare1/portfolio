@@ -32,7 +32,7 @@ const Projects = () => {
       imageUrl: "/projects/timebank.png", 
       category: "fullstack",
       technologies: ["React", "Node.js", "Socket.IO", "Zustand", "Tailwind UI"],
-      liveUrl: "#",
+      liveUrl: "https://timebankfrontend.vercel.app/",
       codeUrl: "https://github.com/sumitghugare1/timebank"
     }
   ];
