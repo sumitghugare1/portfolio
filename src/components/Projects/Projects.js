@@ -43,17 +43,17 @@ const Projects = () => {
       category: "fullstack",
       technologies: ["React.js", "Node.js", "Express", "MongoDB", "JWT"],
       liveUrl: "https://devfetchfront.vercel.app/",
-      codeUrl: "#"
+      codeUrl: "https://github.com/sumitghugare1/devfetch"
     },
     {
       id: 5,
       title: "DateFoods",
       description: "A modern food ordering and delivery platform with responsive design and intuitive user interface.",
-      imageUrl: "/projects/datefoods.jpeg", 
+      imageUrl: "/projects/datefoods.png", 
       category: "frontend",
       technologies: ["React.js", "CSS3", "JavaScript", "Responsive Design"],
       liveUrl: "https://datefoods.vercel.app/",
-      codeUrl: "#"
+      codeUrl: "https://github.com/sumitghugare1/datefoods"
     }
   ];
   
