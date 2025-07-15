@@ -34,6 +34,26 @@ const Projects = () => {
       technologies: ["React", "Node.js", "Socket.IO", "Zustand", "Tailwind UI"],
       liveUrl: "https://timebankfrontend.vercel.app/",
       codeUrl: "https://github.com/sumitghugare1/timebank"
+    },
+    {
+      id: 4,
+      title: "DevFetch",
+      description: "A comprehensive full-stack platform for developers featuring modern web technologies and seamless user experience.",
+      imageUrl: "/projects/devfetch.png", 
+      category: "fullstack",
+      technologies: ["React.js", "Node.js", "Express", "MongoDB", "JWT"],
+      liveUrl: "https://devfetchfront.vercel.app/",
+      codeUrl: "#"
+    },
+    {
+      id: 5,
+      title: "DateFoods",
+      description: "A modern food ordering and delivery platform with responsive design and intuitive user interface.",
+      imageUrl: "/projects/datefoods.png", 
+      category: "frontend",
+      technologies: ["React.js", "CSS3", "JavaScript", "Responsive Design"],
+      liveUrl: "https://datefoods.vercel.app/",
+      codeUrl: "#"
     }
   ];
   
